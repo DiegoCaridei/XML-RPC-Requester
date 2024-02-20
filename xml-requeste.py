@@ -40,7 +40,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
                             messageInfo.getHttpService(),
                             messageInfo.getUrl(),
                             "XML-RPC Requester vuln Detected",
-                            "XML-RPC Requester vuln Detected for more info visit",
+                            "XML-RPC Requester vuln Detected for more info visit the following page https://www.iprog.it/blog/sicurezza-informatica/attack-wordpress-abusing-xmlrpc/",
                             "High",  # Set the severity level as needed
                             "Certain"  # Set the confidence level as needed
                         )
